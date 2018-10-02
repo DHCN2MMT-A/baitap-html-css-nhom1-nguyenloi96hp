@@ -1,0 +1,46 @@
+.grid{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-areas: 
+    "img1 img1"
+    "header header" 
+    "contentleft contentright" 
+    "footer footer"
+}
+.img1 {
+    grid-area: img1;
+    width: 100%;
+   
+}
+
+.header{
+    grid-area: header;
+    /* background-color: blue; */
+}
+.contentleft{
+    grid-area: contentleft;
+
+}
+.contentright{
+    grid-area: contentright;
+
+}
+.footer{
+    grid-area: footer;
+}
+
+.Menu {
+   background-color: blue;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: aliceblue;
+    display:inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+.Menu a:hover{
+    background-color: brown;
+}
+
